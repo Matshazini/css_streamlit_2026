@@ -44,7 +44,6 @@ elif menu == "Write Feedback to Us":
     email = st.text_input("**Email Address:** ")
     response = st.text_area("**Specify purpose of communication:** ")    
     submit = st.button("Submit")
-elif submit and name:
     st.write(f"Thank you very much for contacting us, you will get a response soon : {name}!")
 
     
